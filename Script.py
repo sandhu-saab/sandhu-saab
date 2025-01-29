@@ -266,7 +266,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<a<blockquote> href='https://t.me/OttSandhu'>{file_name}</blockquote></a>\n\n<b>If You Are Facing Any Sound Issue Then use a VLC Media Player @OttSandhu</b>"""
+    CAPTION = """<blockquote><a href='https://t.me/OttSandhu'>{file_name}</blockquote></a>\n\n<b>If You Are Facing Any Sound Issue Then use a VLC Media Player @OttSandhu</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
