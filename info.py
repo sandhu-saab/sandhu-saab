@@ -143,8 +143,8 @@ SEASONS = ["season 1" , "season 2" , "season 3" , "season 4", "season 5" , "seas
 # Server & Web Configuration
 # ============================
 
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
-NO_PORT = bool(environ.get('NO_PORT', True))
+STREAM_MODE = bool(environ.get('STREAM_MODE', False) # Set True or False
+NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
 if 'DYNO' in environ:
     ON_HEROKU = True
